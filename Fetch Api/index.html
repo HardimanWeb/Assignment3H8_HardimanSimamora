@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 | Api</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<style>
+    .container{
+        background-image: url("img/covid.jpg");
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="form">
+          <h2>COVID-19 TRACKER</h2>
+          <div class="input">
+            <input type="text" id="InputCountry"> <button  onclick="dataHistory()">Get Data</button>
+         </div>
+        
+        <div class="box">
+        <div class="box1">
+            <div class="content">
+                <h4>Active Cases</h4>
+                <p id="activeCases">0</p>
+            </div>
+            <div class="content">
+                <h4 >New Cases</h4>
+                <p id="newCases">0</p>
+            </div>
+            <div class="content">
+                <h4>Recovered Cases</h4>
+                <p id="recoveredCases">0</p>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="content">
+                <h4>Total Cases</h4>
+                <p  id="totalCases">0</p>
+            </div>
+            <div class="content">
+                <h4>Total Deaths</h4>
+                <p id="totalDeaths">0</p>
+            </div>
+            <div class="content">
+                <h4>Total Tests</h4>
+                <p id="totalTests">0</p>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
